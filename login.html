@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <main>
+        <section id="login">
+
+            <div id="imagem"></div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Bem vindo(a). Faça o login e acesse sua conta</p>
+                <form action="login">
+                    <div class="campo">
+                        <label for="login"></label>
+                        <input type="email" name="login" id="login" placeholder=" Informe seu email" required maxlength="25">                      
+                    </div>
+                    <div class="campo">
+                        <label for="senha"></label>
+                        <input type="password" name="senha" id="senha" placeholder=" Informe sua senha" required minlength="4" maxlength="8">                    
+                    </div>
+                    <input type="submit" value="Entrar" id="entrar">
+                    <a href="#" id="btn">Lembrar senha</a>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+<script src="js/login.js"></script>
+</body>
+
+</html>
