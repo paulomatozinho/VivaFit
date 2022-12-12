@@ -459,4 +459,14 @@ button[type="submit"] {
         /* height: 100%; */
     }
 
+    #menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #carrossel img {
+        width: 80%;
+        height: auto;
+    }
+
 }
