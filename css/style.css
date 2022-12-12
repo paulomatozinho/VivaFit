@@ -434,6 +434,8 @@ button[type="submit"] {
     }
 
     .home {
+        display: flex;
+        flex-direction: column;
         padding: 100px 2%;
         flex-wrap: wrap;
         text-align: center;
@@ -467,6 +469,17 @@ button[type="submit"] {
     #carrossel img {
         width: 80%;
         height: auto;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img img {
+        width: 80%;
+        height: auto;
+        align-items: center;
     }
 
 }
