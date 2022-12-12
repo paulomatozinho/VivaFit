@@ -37,7 +37,6 @@ section {
     width: 100%;
     background: var(--white-color);
     transition: all 0.5s;
-    position: fixed;
 }
 
 .logo {
@@ -91,12 +90,18 @@ section {
 
 /*Main*/
 .home {
+    height: 88vh;
     width: 100%;
-    height: 100vh;
-    display: flex;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    justify-content: space-between;
-    padding: 0 10%;
+    gap: 2rem;
+}
+
+.home-img img {
+    width: 100%;
+    height: auto;
 }
 
 .home-text {
@@ -148,11 +153,6 @@ section {
     background: red;
 }
 
-.home-img {
-    width: 100%;
-    flex: 1;
-}
-
 /*Sobre*/
 .about {
     display: grid;
@@ -162,8 +162,7 @@ section {
 }
 
 .about-img img {
-    max-width: 100%;
-    width: 500px;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -204,6 +203,7 @@ section {
 
 #carrossel img {
     width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
@@ -435,7 +435,7 @@ button[type="submit"] {
 
     .home {
         padding: 100px 2%;
-        flex-direction: column;
+        flex-wrap: wrap;
         text-align: center;
         overflow: hidden;
         gap: 5rem;
@@ -456,5 +456,7 @@ button[type="submit"] {
 
     .home-img img {
         width: 250px;
+        /* height: 100%; */
     }
+
 }
