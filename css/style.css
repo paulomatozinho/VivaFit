@@ -437,7 +437,6 @@ button[type="submit"] {
         display: flex;
         flex-direction: column;
         padding: 100px 2%;
-        flex-wrap: wrap;
         text-align: center;
         overflow: hidden;
         gap: 5rem;
@@ -457,8 +456,8 @@ button[type="submit"] {
     }
 
     .home-img img {
-        width: 250px;
-        height: 100%;
+       width: 100%;
+       height: auto;
     }
 
     #menu {
