@@ -164,7 +164,6 @@ section {
 .about-img img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
 }
 
 .about-text h2 {
@@ -460,25 +459,24 @@ button[type="submit"] {
        height: auto;
     }
 
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: auto;
+    }
+
     #menu {
         display: flex;
         flex-direction: column;
     }
 
     #carrossel img {
-        width: 80%;
+        width: 100%;
         height: auto;
-    }
-
-    #about {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .about-img img {
-        width: 80%;
-        height: auto;
-        align-items: center;
     }
 
 }
