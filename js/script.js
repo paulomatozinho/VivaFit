@@ -7,6 +7,11 @@ menu.addEventListener('click', () => {
     navMenu.classList.toggle('ativo');
 })
 
+window.onscroll = () => {
+    menu.classList.remove('ativo');
+    navMenu.classList.remove('ativo');
+}
+
 //Carrossel
 let trocaImagem = 4000;
 
